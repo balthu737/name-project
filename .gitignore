@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# SQLite DB
+backend/db/*.db
+
+# Env
+*.env
+
+# Builds
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+
+# Editor
+.vscode/
+*.suo
+*.swp
