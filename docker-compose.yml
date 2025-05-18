@@ -5,9 +5,11 @@ services:
       context: .
       dockerfile: Dockerfile.backend
     ports:
-      - "3001:3001"
-    environment:
-      - NODE_ENV=production
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    restart: always
+
 
   frontend:
     build:
